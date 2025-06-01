@@ -14,4 +14,4 @@ GNOME extension to open a fuzzy search pick-list for inserting user defined symb
 
 ## Credits
 
-Uses [fuzzaldringPlus](https://github.com/jeancroy/fuzz-aldrin-plus) for the fuzzy search.
+Uses [fuzzaldrinPlus](https://github.com/jeancroy/fuzz-aldrin-plus) for the fuzzy search.
