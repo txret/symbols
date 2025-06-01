@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.symbols" path="/org/gnome/shell/extensions/symbols/">
+    <key name="shortcut" type="as">
+      <default><![CDATA[ ['<Control>space'] ]]></default>
+      <summary>Shortcut to open symbol picker</summary>
+      <description>Keybinding to open the symbol picker dialog. Default is Ctrl+Space.</description>
+    </key>
+    <key name="rows" type="u">
+      <default>10</default>
+      <summary>Max rows</summary>
+      <description>Maximum number of rows to display in the symbol picker dialog.</description>
+    </key>
+    <key name="width" type="u">
+      <default>300</default>
+      <summary>Width (pixels)</summary>
+      <description>Width of picker dialog in pixels.</description>
+    </key>
+    <key name="font-size" type="u">
+      <default>12</default>
+      <summary>Font size (pixels)</summary>
+      <description>Size of font in pixels.</description>
+    </key>
+  </schema>
+</schemalist>

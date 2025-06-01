@@ -1,0 +1,32 @@
+.fuzzy-picklist-window.osd-window {
+    padding: 6px;
+    margin: 0px;
+    spacing: 0px;
+    border-radius: 4px;
+    font-family: unset;
+    font-weight: normal;
+}
+.fuzzy-picklist-layout {
+    margin: 0px;
+    padding: 0px;
+}
+.fuzzy-picklist-window .fuzzy-picklist-search {
+    border-radius: 2px;
+    padding: 6px;
+    margin: 0px;
+}
+.fuzzy-picklist-window .fuzzy-picklist-search input {
+    padding: 0px;
+    margin: 0px;
+}
+.fuzzy-picklist-window .fuzzy-picklist-item {
+    font-family: unset;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.fuzzy-picklist-window .fuzzy-picklist-item:selected {
+    color: -st-accent-fg-color;
+    background-color: -st-accent-color;
+}
