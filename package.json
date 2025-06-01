@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "fuzzaldrin-plus": "^0.6.0",
+    "rollup": "^4.41.1",
+    "shx": "^0.4.0"
+  },
+  "scripts": {
+    "compile-schemas": "shx mkdir -p bin/schemas && glib-compile-schemas src/schemas/ --targetdir bin/schemas",
+    "rollup-fuzzaldrin": "shx mkdir -p bin && rollup --config fuzzaldrin.rollup.config.js",
+    "build": "shx mkdir -p bin && shx cp src/{js,css,meta}/* bin/ && shx cp -r src/schemas/ bin/",
+    "pack": "gnome-extensions pack --force --extra-source fuzzaldrinPlus.js bin/",
+    "install": "gnome-extensions install --force *shell-extension.zip",
+    "build-install": "npm run rollup-fuzzaldrin && npm run build && npm run pack && npm run install",
+    "test": "dbus-run-session -- gnome-shell --nested --wayland"
+  }
+}

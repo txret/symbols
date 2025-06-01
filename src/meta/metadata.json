@@ -1,0 +1,9 @@
+{
+  "name": "Symbols",
+  "description": "Select and insert symbols from a user-defined list.",
+  "uuid": "symbols@txret.github.com",
+  "shell-version": [
+    "48"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.symbols"
+}

@@ -1,0 +1,7 @@
+node_modules/
+\.*
+bin/
+package-lock.json
+*.shell-extension.zip
+!.gitignore
+!.gitattributes
